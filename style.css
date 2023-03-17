@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #46fabe;
+}
+.cont{
+    background-color: #494b4b;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 10px;
+    text-align: center;
+    color: azure;
+}
+.social{
+    background-color: #f0ffff96;
+    height: 5vh;        
+}
