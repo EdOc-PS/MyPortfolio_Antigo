@@ -1,7 +1,8 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: #40e4ad;
+    background: #40e4ad;
+    ;
 }
 .cont{
     background-color: #494b4b;
@@ -9,9 +10,31 @@ body{
     height: 40vh;
     border-radius: 10px;
     text-align: center;
-    color: azure;
+    color: #f0ffff;
+    box-shadow: 0px 3px 5px #2b2b2b;
 }
 .social{
     background-color: #f0ffff96;
     height: 5vh;        
+}
+.social:nth-child(1){
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.social:nth-child(5){
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin: 0 5px
+}
+img{
+    border-radius:50rem;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #f0ffff96;
 }
