@@ -6,7 +6,7 @@ body{
 .cont{
     background-color: #494b4b;
     width: 20vw;
-    height: 40vh;
+    height: auto;
     border-radius: 10px;
     text-align: center;
     color: #f0ffff;
@@ -16,17 +16,24 @@ body{
 }
 .social{
     background-color: #f0ffff96;
-    height: 5vh;        
+    height: 5.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
 }
 .social:nth-child(1){
     border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;  
 }
 .social:nth-child(5){
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    text-align: center;
-    justify-content: center;
+  
+}
+
+ul{
+   padding: 0px;
 }
 li{
     list-style: none;
