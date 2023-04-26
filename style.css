@@ -3,17 +3,61 @@ body{
     justify-content: center;  
     background: #29a17d;
 }
+.principal{
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    display: inline-flex;
+    background: #dee0e0;
+    box-shadow: 0px 5px 10px #2b2b2b;
+}
 .cont{
     background-color: #27323A;
-    width: 20vw;
+    width: 22vw;
     height: auto;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     text-align: center;
     color: #f0ffff;
-    box-shadow: 0px 3px 5px #2b2b2b;
-    position: absolute;
-    top: 20%;
 }
+img{
+    border-radius:50rem;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #f0ffff96;
+}
+
+/** menu **/
+button{
+    color: #f0ffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #435055;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background: #29a17d;
+    transition: all 200ms ;
+}
+.limenu{
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    margin: 15px 0;
+    font-size: 18px;
+}
+.limenu:hover{
+    
+    background: #cecfcf;
+}
+.menu{
+    width: 14vw;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+/** social */
 .social{
     background-color:#435055;
     height: 5.5vh;
@@ -23,31 +67,26 @@ body{
         
 }
 .social:nth-child(1){
-    border-top-right-radius: 10px;
+    border-top-right-radius: 0;
     border-top-left-radius: 10px;  
 }
 .social:nth-child(5){
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 0;
     border-bottom-left-radius: 10px;
-  
 }
-
+a{
+    color: #f0ffff;
+}
 ul{
    padding: 0px;
+   text-align: center;
 }
-li{
+.lisocial{
     list-style: none;
     display: inline;
     margin: 0 5px;
-    color: #f0ffff;
 }
 li:hover{
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
-img{
-    border-radius:50rem;
-    width: 100px;
-    height: 100px;
-    border: 1px solid #f0ffff96;
-}
+
