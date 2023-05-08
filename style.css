@@ -11,14 +11,15 @@ body{
 header{
     display: flex;
     justify-content: end;
+    align-items: center;
+    height: 10vh;
 }
-.header{
+.headerobj{
     display: inline-flex;
-    justify-content: center; 
-    animation: fade 400ms ease-in;   
+    animation: fade 400ms ease-in;     
 }
 
-.header .Dcurriculo{
+.headerobj .Dcurriculo{
     background: #F95959;
     color: #f0ffff;
     font: 16px archivo; 
@@ -28,7 +29,7 @@ header{
 .Dcurriculo:hover{
     background: #e44f4f;
 }
-.header .pt_en{
+.headerobj .pt_en{
     text-align: center;
     color: #f0ffff;
     background: #435055a7;
