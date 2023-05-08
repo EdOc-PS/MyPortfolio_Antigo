@@ -6,11 +6,36 @@
 } 
 body{
     user-select:none;
-    display: flex;
-    justify-content: center;  
     background: #29a17d;
 }
+header{
+    display: flex;
+    justify-content: end;
+}
+.header{
+    display: inline-flex;
+    justify-content: center; 
+    animation: fade 400ms ease-in;   
+}
 
+.header .Dcurriculo{
+    background: #F95959;
+    color: #f0ffff;
+    font: 16px archivo; 
+    font-weight: 800;
+    width: 10vw;
+}
+.Dcurriculo:hover{
+    background: #e44f4f;
+}
+.header .pt_en{
+    text-align: center;
+    color: #f0ffff;
+    background: #435055a7;
+    width: 125px;
+    height: 65px;
+    border-radius: 10px;
+}
 .principal{
     border-radius: 10px;
     position: absolute;
@@ -46,7 +71,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center; 
-    background-color: #27323A;
+    background: #27323A;
     width: 40vw;
     height: 60vh;
     border-top-left-radius: 10px;
