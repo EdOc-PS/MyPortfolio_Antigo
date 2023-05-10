@@ -1,25 +1,28 @@
 @font-face { font-family: archivo; 
-    src: url('../teste-main/font/Archivo/Archivo-VariableFont_wdth\,wght.ttf'); 
+    src: url('../MyPortfolio-main/font/Archivo/Archivo-VariableFont_wdth\,wght.ttf'); 
 } 
 @font-face { font-family: mavenpro; 
-    src: url('../teste-main/font/Maven_Pro/MavenPro-VariableFont_wght.ttf'); 
+    src: url('../MyPortfolio-main/font/Maven_Pro/MavenPro-VariableFont_wght.ttf'); 
 } 
 body{
     user-select:none;
     background: #29a17d;
 }
+
+/**Cabeçalho**/
 header{
     display: flex;
-    justify-content: end;
+    justify-content:end;
     align-items: center;
     height: 10vh;
 }
-.headerobj{
+.ulheader{
+    margin-right: 30px;
     display: inline-flex;
-    animation: fade 400ms ease-in;     
+    animation: fade 400ms ease-in; 
+    gap: 15px;    
 }
-
-.headerobj .Dcurriculo{
+.ulheader .Dcurriculo{
     background: #F95959;
     color: #f0ffff;
     font: 16px archivo; 
@@ -29,14 +32,26 @@ header{
 .Dcurriculo:hover{
     background: #e44f4f;
 }
-.headerobj .pt_en{
-    text-align: center;
+.ulheader .pt_en{
+    align-items: center;
+    display: flex;
+    justify-content: center;
     color: #f0ffff;
     background: #435055a7;
-    width: 125px;
+    width: 6vw;
     height: 65px;
     border-radius: 10px;
 }
+.ulheader .colormode{
+    text-align: center;
+    color: #f0ffff;
+    background: #435055a7;
+    width: 7vw;
+    height: 65px;
+    border-radius: 10px;
+}
+
+/**Corpo**/
 .principal{
     border-radius: 10px;
     position: absolute;
@@ -107,7 +122,6 @@ header{
     align-items: center;
 }
 .limenu{
-    list-style: none;
     margin: 35px 0;
 }
 button{
@@ -171,11 +185,11 @@ a{
     color: #f0ffff;
 }
 ul{
+   list-style: none;
    padding: 0px;
    text-align: center;
 }
 .lisocial{
-    list-style: none;
     display: inline;
     margin: 0 15px;
 }
