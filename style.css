@@ -28,11 +28,13 @@ header{
     font: 16px archivo; 
     font-weight: 800;
     width: 10vw;
+    box-shadow: 0px 2px 3px #2b2b2b;
 }
 .Dcurriculo:hover{
     background: #e44f4f;
 }
 .ulheader .pt_en{
+    cursor:default;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -41,16 +43,21 @@ header{
     width: 6vw;
     height: 65px;
     border-radius: 10px;
+    gap: 10px;
+    border: solid 1.5px #435055;
+    
 }
-.ulheader .colormode{
-    text-align: center;
-    color: #f0ffff;
-    background: #435055a7;
-    width: 7vw;
-    height: 65px;
-    border-radius: 10px;
+.buttoncolor{
+    border: solid 1px #435055;
+    background: linear-gradient(to left, #29a17d 50%, #435055 50%);
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
 }
-
+.buttoncolor:nth-child(2){
+    border: solid 1px #dee0e0;
+    background: linear-gradient(to left, #dee0e0 50%, #FF6000 50%);
+}
 /**Corpo**/
 .principal{
     border-radius: 10px;
