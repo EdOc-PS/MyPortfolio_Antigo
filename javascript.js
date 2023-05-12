@@ -2,6 +2,7 @@ var buttonmenu = document.querySelector(".buttonmenu")
 var divprin = document.querySelector(".principal")
 var divprin2 = document.querySelector(".principal2")
 var divprin3 = document.querySelector(".principal3")
+var body = document.querySelector("body")
 
 function somemim()
 {
@@ -46,4 +47,7 @@ function someexp()
 
   
   }
+}
+function changecolor2(){
+     body.style.background = "#f0ffff";
 }
