@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
+    <link rel="icon" type="image/x-icon" href="img/identification_card.ico">
+    <title>MyPortfolio</title>
     
 </head>
 
@@ -16,8 +17,8 @@
         <ul class="ulheader">
             <li><button class="Dcurriculo">Curriculo <i class="fa-solid fa-download"></i> </button></li>
             <li><div class="pt_en"><i class="fa-solid fa-flag-usa fa-2x"></i></div></li>   
-            <li><div class="pt_en"><button class="buttoncolor" onclick=changecolor()></button>
-                <button class="buttoncolor" onclick=changecolor2()></button></div>
+            <li><div class="pt_en"><button class="buttoncolor" onclick=changecolordark()></button>
+                <button class="buttoncolor" onclick=changecolorlight()></button></div>
             </li>      
         </ul>
 </header>
@@ -59,7 +60,7 @@
                     <li class="limenu"> <button class="buttonmenu" onclick=somecar()> Carreira </button></li>
                     <li class="limenu"> <button class="buttonmenu" onclick=someexp()> Experiências </button></li>
                 </ul>
-                <button class="contactme">CONTATE-ME</button>
+                <button class="contactme" id="contactmehover">CONTATE-ME</button>
             </nav>
         </div>
     </div>
