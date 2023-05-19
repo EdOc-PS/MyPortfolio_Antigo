@@ -32,17 +32,18 @@ header{
 }
 .Dcurriculo:hover{
     background: #e44f4f;
+    transition: all 300ms ease-in-out;
 }
 .ulheader .pt_en{
-    cursor:default;
+    cursor: default;
     align-items: center;
     display: flex;
     justify-content: center;
     color: #f0ffff;
     background: #435055a7;
-    width: 6vw;
+    width: 5.5vw;
     height: 65px;
-    border-radius: 10px;
+    border-radius: 30px;
     gap: 10px;
     border: solid 1.5px #435055;
     
@@ -57,6 +58,13 @@ header{
 .buttoncolor:nth-child(2){
     border: solid 1px #dee0e0;
     background: linear-gradient(to left, #F7C04A 50%, #dee0e0 50%);
+}
+.buttoncolor:hover{
+    transition: all 300ms ease;
+    box-shadow: 0px 0px 10px #2b2b2b;
+}
+.buttoncolor:hover:nth-child(2){
+    box-shadow: 0px 0px 10px #F7C04A;
 }
 /**Corpo**/
 .principal{
@@ -76,7 +84,7 @@ header{
     top: 20%;
     display: none;
     background: transparent;
-    box-shadow: 0px 5px 10px #2b2b2b;
+    box-shadow: 0px 5px 1px #2b2b2b;
     animation: fade 400ms ease-in;
     right: 23%;
 }
@@ -100,7 +108,7 @@ header{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     text-align: center;
-    color: #f0ffff;
+    color: #dee0e0;
 }
 
 .imguser{
@@ -197,7 +205,7 @@ button:hover{
     border-bottom-left-radius: 10px;
 }
 a{
-    color: #f0ffff;
+    color: #dee0e0;
 }
 ul{
    list-style: none;
@@ -228,4 +236,8 @@ li:hover{
     to{
         scale: 1.0;
     }
+}
+/**cor**/
+.buttonmenulight:hover{
+    background-color: #F7C04A;
 }
