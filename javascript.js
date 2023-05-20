@@ -57,10 +57,11 @@ var body = document.querySelector("body")
     var text = document.querySelector(".text")
       var imguser = document.querySelector(".imguser")
         var contactme = document.querySelector(".contactme")
-    var buttonmenu = document.getElementById("buttonmenu")
+    var buttonmenucolor1 = document.getElementById("buttonmenucolor1")
+      var buttonmenucolor2 = document.getElementById("buttonmenucolor2")
+        var buttonmenucolor3 = document.getElementById ("buttonmenucolor3")
  
 function changecolordark(){
-
      body.style.background = "#29a17d";
       cont.style.background = "#27323A";
         menu.style.background = "#dee0e0";
@@ -70,7 +71,40 @@ function changecolordark(){
         text.style.fontWeight="400"; 
           imguser.style.border="2px solid #f0ffff96"
       contactme.style.background= "#435055";
- } 
+       
+      contactme.onmouseover =function(){
+        this.style.background = "#29a17d";
+            this.style.color = "#dee0e0";
+        this.style.transition = "all 300ms ease-in-out"; 
+    }
+      contactme.onmouseout = function(){
+        contactme.style.background = "#435055";
+        contactme.style.color = "#dee0e0";   
+   }
+
+ /*Change color buttons menu*/
+    buttonmenucolor1.onmouseover = function(){
+      this.style.background = "#cecfcf"; 
+    }
+      buttonmenucolor2.onmouseover = function(){
+        this.style.background = "#cecfcf"; 
+      }
+        buttonmenucolor3.onmouseover = function(){
+          this.style.background = "#cecfcf"; 
+        }
+    buttonmenucolor1.onmouseout = function(){
+      this.style.background = "#dee0e0"; 
+    }
+      buttonmenucolor2.onmouseout = function(){
+        this.style.background = "#dee0e0"; 
+      }
+        buttonmenucolor3.onmouseout = function(){
+          this.style.background = "#dee0e0"; 
+        }
+    buttonmenucolor1.style.background = "transparent"
+      buttonmenucolor2.style.background = "transparent"
+        buttonmenucolor3.style.background = "transparent"
+}
 
 function changecolorlight(){
     body.style.background = "#EFF5F5";
@@ -81,14 +115,37 @@ function changecolorlight(){
       text.style.color="#435055";
         text.style.fontWeight="500";
           imguser.style.border= "3px solid #3C486B";
+
     contactme.style.background= "#3C486B"; 
-    buttonmenu.classList.remove(".buttonmenu");
-    buttonmenu.classList.add(".buttonmenulight");
-  /**  buttonmenu.addEventListener('mouseover',function(){
-      buttonmenu.style.background = "#f7b016";
-      
-  })
-    buttonmenu.addEventListener('mouseleave',function(){
-      buttonmenu.style.background = "#FED049";
- })**/
-}
+      contactme.onmouseover = function(){
+        this.style.background = "#dee0e0";
+        this.style.color = "#435055";
+        this.style.transition = "all 300ms ease-in-out"; 
+    }
+      contactme.onmouseout = function(){
+        this.style.background = "#3C486B";
+        this.style.color = "#dee0e0";   
+    }
+    /*Change color buttons menu*/
+    buttonmenucolor1.onmouseover = function(){
+      this.style.background = "#F7C04A"; 
+    }
+      buttonmenucolor2.onmouseover = function(){
+        this.style.background = "#F7C04A"; 
+      }
+        buttonmenucolor3.onmouseover = function(){
+          this.style.background = "#F7C04A"; 
+        }
+    buttonmenucolor1.onmouseout = function(){
+      this.style.background = "#FED049"; 
+    }
+      buttonmenucolor2.onmouseout = function(){
+        this.style.background = "#FED049"; 
+      }
+        buttonmenucolor3.onmouseout = function(){
+          this.style.background = "#FED049"; 
+        }
+    buttonmenucolor1.style.background = "transparent"
+      buttonmenucolor2.style.background = "transparent"
+        buttonmenucolor3.style.background = "transparent"
+  }
