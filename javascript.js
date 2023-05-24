@@ -75,7 +75,7 @@ function changecolordark(){
       contactme.onmouseover =function(){
         this.style.background = "#29a17d";
             this.style.color = "#dee0e0";
-        this.style.transition = "all 300ms ease-in-out"; 
+        this.style.transition = "all 200ms ease-in-out"; 
     }
       contactme.onmouseout = function(){
         contactme.style.background = "#435055";
@@ -120,7 +120,7 @@ function changecolorlight(){
       contactme.onmouseover = function(){
         this.style.background = "#dee0e0";
         this.style.color = "#435055";
-        this.style.transition = "all 300ms ease-in-out"; 
+        this.style.transition = "all 200ms ease-in-out"; 
     }
       contactme.onmouseout = function(){
         this.style.background = "#3C486B";

@@ -15,12 +15,14 @@ header{
     justify-content:end;
     align-items: center;
     height: 10vh;
+    
 }
 .ulheader{
     margin-right: 30px;
     display: inline-flex;
     animation: fade 400ms ease-in; 
-    gap: 15px;    
+    gap: 15px; 
+    align-items: center;   
 }
 .ulheader .Dcurriculo{
     background: #F95959;
@@ -41,9 +43,9 @@ header{
     justify-content: center;
     color: #f0ffff;
     background: #435055a7;
-    width: 5.5vw;
-    height: 65px;
-    border-radius: 30px;
+    width: 5vw;
+    height: 55px;
+    border-radius: 10px;
     gap: 10px;
     border: solid 1.5px #435055;
     
@@ -66,6 +68,55 @@ header{
 .buttoncolor:hover:nth-child(2){
     box-shadow: 0px 0px 10px #F7C04A;
 }
+/****/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  .slider {
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #dee0e0;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    border-radius: 20%;
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #29a17d;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #dee0e0;
+  }
+  
+  /**input:focus + .slider {
+    box-shadow: 0 0 1px #435055;
+  }
+  **/
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-color: #F7C04A;
+  }
+/****/
 /**Corpo**/
 .principal{
     border-radius: 10px;
@@ -174,8 +225,6 @@ button:hover{
 }
 
 
-
-
 /** social **/
 .social{
     font-family: archivo;
@@ -236,13 +285,4 @@ li:hover{
     to{
         scale: 1.0;
     }
-}
-/**cor**/
-.buttonmenulight{
-    font: 20px mavenpro;  
-    font-weight: 450;
-    background: transparent; 
-}
-.buttonmenulight:hover{
-    background-color: #F7C04A;
 }
