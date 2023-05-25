@@ -51,13 +51,16 @@ header{
     
 }
 /**Lingua**/
-.ulheader select{
+.ulheader .select2{
     width: 70px;
     height: 35px;
     border-radius: 5px;
     background: #dee0e0;
     cursor: pointer;
+    font: 15px archivo;
+    font-weight: 800;
 }
+
 /****/
 
 /****/
@@ -84,10 +87,10 @@ header{
     border-radius: 30%;
     position: absolute;
     content: "";
-    height: 30px;
-    width: 30px;
-    left: 2px;
-    bottom: 2px;
+    height: 27px;
+    width: 27px;
+    left: 4px;
+    bottom: 4px;
     background-color: #29a17d;
     -webkit-transition: .4s;
     transition: .4s;
@@ -101,7 +104,7 @@ header{
   }
   **/
   input:checked + .slider:before {
-    transform: translateX(26px);
+    transform: translateX(25px);
     background-color: #F7C04A;
   }
 /****/

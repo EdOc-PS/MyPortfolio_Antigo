@@ -1,3 +1,6 @@
+/** select2 **/
+
+/****/
 
   var divprin = document.querySelector(".principal")
     var divprin2 = document.querySelector(".principal2")
