@@ -151,3 +151,18 @@ checkbox.addEventListener("change", function() {
       buttonmenucolor3.style.background = "transparent"
   }
 });
+/** select lenguage **/
+const select = document.querySelector(".select-lenguage"); 
+const selectButton = document.querySelector(".select-button");
+const selectoption = document.querySelectorAll(".option");
+const selecttext = document.querySelector(".select-text");
+
+selectButton.addEventListener("click", ()=> select.classList.toggle("active"));
+  selectoption.forEach(option => {
+    option.addEventListener("click", ()=>{
+      let selectedOption = option.querySelector(".option-text").innerText;
+      console.log(selectedOption)
+  });
+});
+
+ 

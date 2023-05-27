@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/identification_card.ico">
+    <title>MyPortfolio</title>
+
+</head>
+
+<body>
+    <header>
+        <ul class="ulheader">
+            <li><button class="Dcurriculo">Curriculo <i class="fa-solid fa-download"></i> </button></li>
+            <li>
+                <div class="lenguage_colors">
+                 <div class="select-lengague">
+                   <button class="select-button"><span class="select-text"> escolha </span><i class="fa-solid fa-caret-down"></i></button> 
+                    <ul class = "select-option">
+                        <li class="option"> <img src="img/br.png" alt="pt-br"> <span class ="option-text"> Portugues</span></li>
+                        <li class="option"> <img src="img/usa.png"alt="en-us"> <span class ="option-text"> Ingles</span></li>
+                    </ul>
+                 </div>
+                </div>
+            </li>
+            <li>
+                <div class="lenguage_colors">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <div class="principal">
+        <div class="cont">
+            <div class="social">
+                <h1>Eduardo Octávio</h1>
+            </div>
+            <br>
+            <div class="reference">
+                <div class="img">
+                    <img class="imguser" src="img/star-wars-lucasfilm.jpg" alt="edu">
+                </div>
+                <div class="text" id="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illo labore omnis, nostrum
+                        quibusdam
+                        atque minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum, suscipit
+                        minima molestiae.</p>
+                </div>
+            </div>
+            <br>
+            <div class="social">
+                <ul>
+                    <li class="lisocial"><a href="https://www.instagram.com/eduuard_oc/"><i
+                                class="fa-brands fa-square-instagram fa-2xl"></i></a></li class="lisocial">
+                    <li class="lisocial"><a href="https://twitter.com/Eduuard_Oc"><i
+                                class="fa-brands fa-square-twitter fa-2xl"></i></a></li class="lisocial">
+                    <li class="lisocial"><a href="https://www.linkedin.com/in/eduardo-oct%C3%A1vio-284066259/"><i
+                                class="fa-brands fa-linkedin fa-2xl"></i></a></li class="lisocial">
+                    <li class="lisocial"><a href="https://github.com/EdOc-PS/"><i
+                                class="fa-brands fa-square-github fa-2xl"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul class="ulmenu">
+                    <li class="limenu"> <button id="buttonmenucolor1" class="buttonmenu"> Sobre mim </button></li>
+                    <li class="limenu"> <button id="buttonmenucolor2" class="buttonmenu" onclick=somecar()> Carreira
+                        </button></li>
+                    <li class="limenu"> <button id="buttonmenucolor3" class="buttonmenu" onclick=someexp()> Experiências
+                        </button></li>
+                </ul>
+                <button class="contactme" id="contactmehover">CONTATE-ME</button>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Div da Carreira -->
+
+    <div class="principal2">
+        <div class="cont">
+
+            <div class="social">
+                <h1>Carreira</h1>
+            </div>
+            <br>
+            <img src="img/software-engineer-animate.svg" alt="construção" style="width: 70%; height: 70%;">
+            <div class="social"></div>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul class="ulmenu">
+                    <li class="limenu"> <button class="buttonmenu" onclick=somemim()> Sobre mim </button></li>
+                    <li class="limenu"> <button class="buttonmenu"> Carreira </button></li>
+                    <li class="limenu"> <button class="buttonmenu" onclick=someexp()> Experiências </button></li>
+                </ul>
+                <button class="contactme">CONTATE-ME</button>
+            </nav>
+        </div>
+    </div>
+
+    <!---->
+    <!-- Div da Expêriencia -->
+
+    <div class="principal3">
+        <div class="cont">
+
+            <div class="social">
+                <h1>Expêriencias</h1>
+            </div>
+            <br>
+            <img src="img/software-engineer-animate.svg" alt="construção" style="width: 70%; height: 70%;">
+            <div class="social"></div>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul class="ulmenu">
+                    <li class="limenu"> <button class="buttonmenu" onclick=somemim()> Sobre mim </button></li>
+                    <li class="limenu"> <button class="buttonmenu" onclick=somecar()> Carreira </button></li>
+                    <li class="limenu"> <button class="buttonmenu"> Experiências </button></li>
+                </ul>
+                <button class="contactme">CONTATE-ME</button>
+            </nav>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
