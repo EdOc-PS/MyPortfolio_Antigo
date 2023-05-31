@@ -155,9 +155,16 @@ checkbox.addEventListener("change", function() {
 const select = document.querySelector(".select-lenguage"); 
 const selectButton = document.querySelector(".select-button");
 const selectoption = document.querySelectorAll(".option");
+const selectoptions = document.querySelector(".select-option");
 const selecttext = document.querySelector(".select-text");
 
-selectButton.addEventListener("click", ()=> select.classList.toggle("active"));
+selectButton.addEventListener("click", ()=>{
+  if(selectoptions.style.display === "block"){
+    selectoptions.style.display="none";
+  }else{
+    selectoptions.style.display="block";
+  }
+});
   selectoption.forEach(option => {
     option.addEventListener("click", ()=>{
       let selectedOption = option.querySelector(".option-text").innerText;
