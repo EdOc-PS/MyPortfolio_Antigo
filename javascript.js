@@ -161,14 +161,15 @@ const selecttext = document.querySelector(".select-text");
 selectButton.addEventListener("click", ()=>{
   if(selectoptions.style.display === "block"){
     selectoptions.style.display="none";
+
   }else{
     selectoptions.style.display="block";
   }
 });
   selectoption.forEach(option => {
     option.addEventListener("click", ()=>{
-      let selectedOption = option.querySelector(".option-text").innerText;
-      console.log(selectedOption)
+      let selectedOptionText = option.querySelector(".option-text").innerText;
+      selectButton.innerText = selectedOptionText;
   });
 });
 

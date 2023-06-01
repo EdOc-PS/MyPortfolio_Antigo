@@ -77,11 +77,12 @@ header{
     color:#2b2b2b;
     font: 15px mavenpro;
     width: 120px;
-    position: relative;
+    position: absolute;
     z-index: 1;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
     display: none;
+    right: 6.7vw;
 }
 
 .select-option .option{
@@ -96,6 +97,7 @@ header{
 .select-option .option:hover{
     background: #cecfcf;
 }
+
 /****/
 
 /**ligth mode**/
