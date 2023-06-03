@@ -68,6 +68,7 @@ checkbox.addEventListener("change", function() {
   if (this.checked) {
     body.style.background = "#EFF5F5";
       cont.style.background = "#dee0e0";
+  
         menu.style.background ="#FED049";
           social.style.background ="#3C486B";
     social2.style.background ="#3C486B";
@@ -157,19 +158,22 @@ const selectButton = document.querySelector(".select-button");
 const selectoption = document.querySelectorAll(".option");
 const selectoptions = document.querySelector(".select-option");
 const selecttext = document.querySelector(".select-text");
+const i2 = document.querySelector(".fa-solid.fa-caret-down");
 
 selectButton.addEventListener("click", ()=>{
   if(selectoptions.style.display === "block"){
     selectoptions.style.display="none";
+    i2.style.transform = "rotate(0)";
 
   }else{
     selectoptions.style.display="block";
+    i2.style.transform = "rotate(180deg)";
   }
 });
   selectoption.forEach(option => {
     option.addEventListener("click", ()=>{
       let selectedOptionText = option.querySelector(".option-text").innerText;
-      selectButton.innerText = selectedOptionText;
+      selecttext.innerText = selectedOptionText;
   });
 });
 

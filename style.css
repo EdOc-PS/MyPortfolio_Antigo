@@ -18,7 +18,7 @@ header{
     
 }
 .ulheader{
-    margin-right: 30px;
+    margin-right: 35px;
     display: inline-flex;
     animation: fade 400ms ease-in; 
     gap: 15px; 
@@ -38,36 +38,33 @@ header{
 }
 .ulheader .lenguage_colors{
     cursor: default;
-    align-items: center;
     display: flex;
     justify-content: center;
-    color: #f0ffff;
+    align-items: center;
     background: #435055a7;
-    width: 5vw;
+    gap: 35px;
+    width: 11.5vw;
     height: 55px;
     border-radius: 10px;
-    gap: 10px;
-    border: solid 1.5px #435055;
-    
+        box-shadow: 0 0 5px #435055;
+        
 }
-/**Lingua**/
-
+/**Idioma**/
 .select-lenguage{
     display: flex;
 }
 .ulheader .select-button{
     cursor: pointer;
     display: inline-flex;
-    width: 80px;
+    width: 105px;
     height: 35px;
     background: #dee0e0;
     border-radius: 5px;
     cursor: pointer;
     font: 15px archivo;
-    padding: 9px;
+    align-items: center;
     justify-content: center;
-    gap: 5px;
-
+    gap: 13px;
 }
 
 .select-option{
@@ -83,7 +80,9 @@ header{
     margin-top: 15px;
     display: none;
     right: 6.7vw;
+    box-shadow: 0px 3px 10px #2b2b2b;
 }
+
 
 .select-option .option{
     display: flex;
@@ -97,7 +96,9 @@ header{
 .select-option .option:hover{
     background: #cecfcf;
 }
-
+.select-button i{
+    transition: 250ms ease-in-out;
+}
 /****/
 
 /**ligth mode**/
@@ -164,7 +165,7 @@ header{
     top: 20%;
     display: none;
     background: transparent;
-    box-shadow: 0px 5px 1px #2b2b2b;
+    box-shadow: 0px 5px 10px #2b2b2b;
     animation: fade 400ms ease-in;
     right: 23%;
 }
@@ -190,6 +191,7 @@ header{
     text-align: center;
     color: #dee0e0;
 }
+
 
 .imguser{
     border-radius:50rem;
@@ -241,7 +243,7 @@ button:hover{
     font-size: 15px;
     margin-top: 8vh;
 }
-#contactmehover:hover{
+.contactme:hover{
     background: #29a17d;
 }
 .buttonmenu{
@@ -307,11 +309,4 @@ li:hover{
         opacity: 1;
     }
 }
-@keyframes increase{
-    from{
-        scale: 0.90;
-    }
-    to{
-        scale: 1.0;
-    }
-}
+
