@@ -79,35 +79,43 @@ checkbox.addEventListener("change", function() {
     contactme.style.background= "#3C486B"; 
       contactme.onmouseover = function(){
         this.style.background = "#dee0e0";
-        this.style.color = "#435055";
-        this.style.transition = "all 200ms ease-in-out"; 
+          this.style.color = "#435055";
+
     }
       contactme.onmouseout = function(){
         this.style.background = "#3C486B";
-        this.style.color = "#dee0e0";   
+          this.style.color = "#dee0e0"; 
+      
     }
     /*Change color buttons menu*/
     buttonmenucolor1.onmouseover = function(){
-      this.style.background = "#F7C04A"; 
+      this.style.background = "#F7C04A";
+  
+    }
+    buttonmenucolor1.onmouseout = function(){
+      this.style.background = "#FED049"; 
+  
     }
       buttonmenucolor2.onmouseover = function(){
         this.style.background = "#F7C04A"; 
+  
+      }
+      buttonmenucolor2.onmouseout = function(){
+        this.style.background = "#FED049"; 
+      
       }
         buttonmenucolor3.onmouseover = function(){
           this.style.background = "#F7C04A"; 
+      
         }
-    buttonmenucolor1.onmouseout = function(){
-      this.style.background = "#FED049"; 
-    }
-      buttonmenucolor2.onmouseout = function(){
-        this.style.background = "#FED049"; 
-      }
         buttonmenucolor3.onmouseout = function(){
-          this.style.background = "#FED049"; 
+          this.style.background = "#FED049";
+        
         }
     buttonmenucolor1.style.background = "transparent"
       buttonmenucolor2.style.background = "transparent"
         buttonmenucolor3.style.background = "transparent"
+     
   }else{
     body.style.background = "#29a17d";
     cont.style.background = "#27323A";
@@ -122,31 +130,41 @@ checkbox.addEventListener("change", function() {
     contactme.onmouseover =function(){
       this.style.background = "#29a17d";
           this.style.color = "#dee0e0";
-      this.style.transition = "all 200ms ease-in-out"; 
+   
   }
     contactme.onmouseout = function(){
-      contactme.style.background = "#435055";
-      contactme.style.color = "#dee0e0";   
+      this.style.background = "#435055";
+        this.style.color = "#dee0e0"; 
+        
+    
  }
 /*Change color buttons menu*/
   buttonmenucolor1.onmouseover = function(){
     this.style.background = "#cecfcf"; 
+    
   }
-    buttonmenucolor2.onmouseover = function(){
-      this.style.background = "#cecfcf"; 
-    }
-      buttonmenucolor3.onmouseover = function(){
-        this.style.background = "#cecfcf"; 
-      }
   buttonmenucolor1.onmouseout = function(){
     this.style.background = "#dee0e0"; 
+    
   }
+    buttonmenucolor2.onmouseover = function(){
+      this.style.background = "#cecfcf";
+       
+    }
     buttonmenucolor2.onmouseout = function(){
       this.style.background = "#dee0e0"; 
+     
     }
+      buttonmenucolor3.onmouseover = function(){
+        this.style.background = "#cecfcf";
+     
+      }
       buttonmenucolor3.onmouseout = function(){
         this.style.background = "#dee0e0"; 
+      
       }
+   
+      
   buttonmenucolor1.style.background = "transparent"
     buttonmenucolor2.style.background = "transparent"
       buttonmenucolor3.style.background = "transparent"
@@ -174,6 +192,8 @@ selectButton.addEventListener("click", ()=>{
     option.addEventListener("click", ()=>{
       let selectedOptionText = option.querySelector(".option-text").innerText;
       selecttext.innerText = selectedOptionText;
+      selectoptions.style.display="none";
+      i2.style.transform = "rotate(0)";
   });
 });
 
