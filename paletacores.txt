@@ -1,12 +1,24 @@
-https://colorhunt.co/palette/27323a43505529a19ca3f7bf
-https://colorhunt.co/palette/f4f4f465eeb7ff5722474744
-https://colorhunt.co/palette/08ffc8fff7f7dadada204969
-https://colorhunt.co/palette/233142455d7af95959e3e3e3
-https://colorhunt.co/palette/f5f3c127e1c10ea2932f0f5d
-https://colorhunt.co/palette/454545ff6000ffa559ffe6c7
-https://colorhunt.co/palette/181d31678983e6ddc4f0e9d2
-https://colorhunt.co/palette/2c33332e4f4f0e8388cbe4de
-https://icon-icons.com/pt/
-https://www.codingnepalweb.com/dropdown-select-menu-javascript/
-https://www.flaticon.com/br/icones-gratis/brasil
-- Live service
+- color Hunt {
+    https://colorhunt.co/palette/27323a43505529a19ca3f7bf
+    https://colorhunt.co/palette/f4f4f465eeb7ff5722474744
+    https://colorhunt.co/palette/08ffc8fff7f7dadada204969
+    https://colorhunt.co/palette/233142455d7af95959e3e3e3
+    https://colorhunt.co/palette/f5f3c127e1c10ea2932f0f5d
+    https://colorhunt.co/palette/454545ff6000ffa559ffe6c7
+    https://colorhunt.co/palette/181d31678983e6ddc4f0e9d2
+    https://colorhunt.co/palette/2c33332e4f4f0e8388cbe4de
+}
+- Outros{
+    https://icon-icons.com/pt/
+    https://www.codingnepalweb.com/dropdown-select-menu-javascript/
+    https://www.flaticon.com/br/icones-gratis/brasil
+}
+- Extenção: Live service
+
+- Para consertar o problema do menu existem 2 opções:
+    if{
+    antes do if de checagem setar todos os bottonmenu para transition 0ms, logo apos isso, 
+    em cada onmouseover a transição ser de 300ms. (Testado)
+    }else{
+    setar a cor de todos os bottonmenu no onmouseover para as cores originas (Testado)
+    }
