@@ -22,3 +22,7 @@
     }else{
     setar a cor de todos os bottonmenu no onmouseover para as cores originas (Testado)
     }
+
+- Informação:{
+    não prcisa declarar ids pois a classe esta pegando todos os ids de uma vez - testado
+}

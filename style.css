@@ -91,10 +91,10 @@ header{
 .select-option .option:hover{
     background: #cecfcf;
     transition: 300ms ease-in-out;
-    padding-left: 7px;
+    padding-left: 10px;
 }
 .select-button i{
-    transition: 300ms ease-in-out;
+    transition: 300ms;
 }
 /****/
 
@@ -190,7 +190,6 @@ header{
     text-align: center;
     color: #dee0e0;
 }
-
 
 .imguser{
     border-radius:50rem;
