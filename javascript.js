@@ -1,4 +1,4 @@
-
+  
   var divprin = document.querySelector(".principal")
     var divprin2 = document.querySelector(".principal2")
       var divprin3 = document.querySelector(".principal3")

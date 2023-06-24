@@ -7,7 +7,7 @@
 body{
     user-select:none;
     background: #29a17d;
-}
+} 
 
 /**Cabeçalho**/
 header{
@@ -196,7 +196,7 @@ header{
     width: 180px;
     height: 180px;
     border: 2px solid #f0ffff96;
-
+    box-shadow: 0 0px 5px #747272;
 }
 .text{
     margin-bottom: 5vh;
@@ -299,6 +299,52 @@ li:hover{
     cursor: pointer;   
 }
 
+/** Expêriencia **/
+.contskill{
+    border: 0px solid #e44f4f;  
+    position: absolute;
+    top:10vh;
+    right: 35vw;
+}
+.skill_titulo{
+    display: flex;
+    text-align: left;
+    font: 20px mavenpro;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.skill_corpo{
+    padding: 10px 10px;
+    font: 15px archivo;
+    display: flex;
+    width: 300px;  
+    background: #dee0e0;
+    border-radius: 5px;
+    color: #2b2b2b;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px #747272;
+
+}
+.skill_corpo:nth-child(2){
+    margin-bottom: 35px;
+}
+.skill_corpo:nth-child(6){
+    margin-bottom: 35px;
+}
+.skill_controle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.skill_icon{
+    margin-right: 10px;
+}
+.skill_bar{
+    background: #29a17d;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+/****/
 /**ANIMATION**/
 @keyframes fade{
     from{
