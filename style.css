@@ -300,11 +300,15 @@ li:hover{
 }
 
 /** Expêriencia **/
-.contskill{
-    border: 0px solid #e44f4f;  
+.controle{
+    display: inline-flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.contskill{  
     position: absolute;
-    top:10vh;
-    right: 35vw;
+    top: 10vh;
+    right: 17vw;
 }
 .skill_titulo{
     display: flex;
@@ -322,15 +326,9 @@ li:hover{
     border-radius: 5px;
     color: #2b2b2b;
     margin-bottom: 15px;
-    box-shadow: 0 4px 10px #747272;
 
 }
-.skill_corpo:nth-child(2){
-    margin-bottom: 35px;
-}
-.skill_corpo:nth-child(6){
-    margin-bottom: 35px;
-}
+
 .skill_controle{
     width: 100%;
     display: flex;
@@ -344,6 +342,7 @@ li:hover{
     margin-right: 10px;
     border-radius: 10px;
 }
+
 /****/
 /**ANIMATION**/
 @keyframes fade{
