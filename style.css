@@ -338,12 +338,42 @@ li:hover{
     margin-right: 10px;
 }
 .skill_bar{
-    background: #29a17d;
+    background: rgb(41, 161, 125);
     margin-right: 10px;
     border-radius: 10px;
 }
-
 /****/
+
+/** Carreira**/
+.Education{
+    position: absolute;
+    top: 9vh;
+  
+}
+.EduTitulo{
+    font: 21px mavenpro;
+}
+.Education_container{
+
+    display: inline-flex;
+    gap: 100px;
+}
+.Education_content{
+
+}
+.Education_Curso{
+    word-wrap: break-word;
+    font: 18px archivo;
+    font-weight: 800;
+    margin: 0;
+    
+}
+.Education_local, .Education_date{
+    font: 17px mavenpro;
+}
+
+
+
 /**ANIMATION**/
 @keyframes fade{
     from{
