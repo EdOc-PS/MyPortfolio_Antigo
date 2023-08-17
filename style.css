@@ -347,27 +347,33 @@ li:hover{
 /** Carreira**/
 .Education{
     position: absolute;
-    top: 9vh;
-  
-}
-.EduTitulo{
-    font: 21px mavenpro;
-}
-.Education_container{
+    top: 7vh;
 
-    display: inline-flex;
-    gap: 100px;
+}
+h2{
+    font: 23px mavenpro;
+}
+.Education_container{   
+    display: flex;
+    border: 1px solid #00f1f1;
+    right: 10vw;
+    position: relative;
+    text-align: left;
 }
 .Education_content{
-
+    border: 1px solid #dee0e0;
+    margin: 10px;
 }
-.Education_Curso{
-    word-wrap: break-word;
+.Education_Curso{ 
+    justify-content: right;
+    width: 120px;
+    word-break: break-word;
     font: 18px archivo;
     font-weight: 800;
     margin: 0;
-    
+ 
 }
+
 .Education_local, .Education_date{
     font: 17px mavenpro;
 }
