@@ -355,13 +355,13 @@ h2{
 }
 .Education_container{   
     display: flex;
-    border: 1px solid #00f1f1;
+    border: 0px solid #00f1f1;
     right: 10vw;
     position: relative;
     text-align: left;
 }
 .Education_content{
-    border: 1px solid #dee0e0;
+    border: 0px solid #dee0e0;
     margin: 10px;
 }
 .Education_Curso{ 
@@ -371,13 +371,42 @@ h2{
     font: 18px archivo;
     font-weight: 800;
     margin: 0;
- 
 }
 
 .Education_local, .Education_date{
     font: 17px mavenpro;
 }
-
+.Education_Space{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Education_Bola{
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #29a17d;
+}
+.Education_Bola::before{
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border: 2px solid #29a17d;
+    border-radius: 50%;
+    transform: translate(-4.5px, -4.5px);
+}
+.Education_Linha{
+    height: 5px;
+    display: block;
+    width: 110%;
+    background: linear-gradient(90deg, rgba(41, 161, 125, 1), rgba(41, 161, 125, 0)); 
+    transform: translate(5px, -9px); 
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}  
+ 
 
 
 /**ANIMATION**/
