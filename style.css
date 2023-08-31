@@ -406,7 +406,16 @@ h2{
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
 }  
- 
+/**Projetos**/
+.Projetos{
+    position: absolute;
+    bottom: 7vh;   
+}
+.projeto_img{
+    border-radius: 10px;
+    width: 120px;
+    height: 160px;
+}
 
 
 /**ANIMATION**/
