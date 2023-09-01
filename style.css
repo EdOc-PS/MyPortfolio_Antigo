@@ -6,7 +6,7 @@
 } 
 body{
     user-select:none;
-    background: #29a17d;
+    background: #aec9c1;
 } 
 
 /**Cabeçalho**/
@@ -150,45 +150,45 @@ header{
 .principal{
     border-radius: 10px;
     position: absolute;
-    top: 20%;
-    right: 23%;
+    top: 14%;
+    right: 10%;
     display: inline-flex;
     background: transparent;
-    box-shadow: 0px 5px 10px #2b2b2b;
+    box-shadow: 0px 5px 10px #2b2b2b49;
     animation: fade 400ms ease-in;
   
 }
 .principal2{
     border-radius: 10px;
     position: absolute;
-    top: 20%;
+    top: 14%;
     display: none;
     background: transparent;
     box-shadow: 0px 5px 10px #2b2b2b;
     animation: fade 400ms ease-in;
-    right: 23%;
+    right: 10%;
 }
 .principal3{
     border-radius: 10px;
     position: absolute;
-    top: 20%;
+    top: 14%;   
     display: none;
     background: transparent;
     box-shadow: 0px 5px 10px #2b2b2b;
     animation: fade 400ms ease-in;
-    right: 23%;
+    right: 10%;
 }
 .cont{
     display:flex;
     justify-content: center;
     align-items: center; 
-    background: #27323A;
-    width: 40vw;
-    height: 60vh;
+    background: #dee0e0;
+    width: 60vw;
+    height: 80vh;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     text-align: center;
-    color: #dee0e0;
+    color: #27323A;
 }
 
 .imguser{
@@ -202,7 +202,8 @@ header{
     margin-bottom: 5vh;
     margin-top: 60px;
     font: 20px mavenpro;
-    font-weight: 400;
+    font-weight: 600;
+    width: 30vw;
     margin-left: 40px;
     margin-right: 40px;
     word-break: break-all;
@@ -213,14 +214,17 @@ header{
 .menu{
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
-    background: #dee0e0;
-    width: 15vw;;
+    background: #29a17d;
+    width: 20vw;
     display: flex;
     justify-content: center;  
     align-items: center;
 }
 .limenu{
     margin: 35px 0;
+}
+.ulmenu{
+    
 }
 button{
     font: 16px archivo;
@@ -231,6 +235,7 @@ button{
     width: 185px;
     height: 65px;
     border: none;
+    color: #dee0e0;
 }
 button:hover{
     transition: 300ms;
@@ -258,9 +263,6 @@ button:hover{
 /** social **/
 .social{
     font-family: archivo;
-    background:#435055;
-    width: 40vw;
-    height: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,21 +272,10 @@ button:hover{
 .social:nth-child(1){
     border-top-right-radius: 0;
     border-top-left-radius: 10px;  
-    top: 0;
-}
-.social:nth-child(5){
-    bottom: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 10px;
-    
-}
-.social:nth-child(4){
-    bottom: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 10px;
+    top: 10vh;
 }
 a{
-    color: #dee0e0;
+    color: #27323A;
 }
 ul{
    list-style: none;
@@ -326,7 +317,6 @@ li:hover{
     border-radius: 5px;
     color: #2b2b2b;
     margin-bottom: 15px;
-
 }
 
 .skill_controle{
@@ -355,13 +345,11 @@ h2{
 }
 .Education_container{   
     display: flex;
-    border: 0px solid #00f1f1;
     right: 10vw;
     position: relative;
     text-align: left;
 }
 .Education_content{
-    border: 0px solid #dee0e0;
     margin: 10px;
 }
 .Education_Curso{ 

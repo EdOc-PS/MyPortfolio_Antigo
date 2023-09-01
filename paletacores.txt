@@ -26,3 +26,6 @@
 - Informação:{
     não prcisa declarar ids pois a classe esta pegando todos os ids de uma vez - testado
 }
+- cores{
+    #27323A
+}
