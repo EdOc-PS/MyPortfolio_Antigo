@@ -60,10 +60,11 @@ header{
     font: 15px archivo;
     align-items: center;
     justify-content: space-between;
-  
+    color: #27323A;
 }
 
 .select-option{
+  
     cursor: default;
     background: #dee0e0;
     border-radius: 5px;
@@ -150,8 +151,8 @@ header{
 .principal{
     border-radius: 10px;
     position: absolute;
-    top: 14%;
-    right: 10%;
+    top: 12%;
+    right: 8%;
     display: inline-flex;
     background: transparent;
     box-shadow: 0px 5px 10px #2b2b2b49;
@@ -161,30 +162,30 @@ header{
 .principal2{
     border-radius: 10px;
     position: absolute;
-    top: 14%;
+    top: 12%;
     display: none;
     background: transparent;
     box-shadow: 0px 5px 10px #2b2b2b;
     animation: fade 400ms ease-in;
-    right: 10%;
+    right: 8%;
 }
 .principal3{
     border-radius: 10px;
     position: absolute;
-    top: 14%;   
+    top: 12%;   
     display: none;
     background: transparent;
     box-shadow: 0px 5px 10px #2b2b2b;
     animation: fade 400ms ease-in;
-    right: 10%;
+    right: 8%;
 }
 .cont{
     display:flex;
     justify-content: center;
     align-items: center; 
     background: #dee0e0;
-    width: 60vw;
-    height: 80vh;
+    width: 65vw;
+    height: 85vh;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     text-align: center;
@@ -219,12 +220,13 @@ header{
     display: flex;
     justify-content: center;  
     align-items: center;
+    
 }
 .limenu{
     margin: 35px 0;
 }
 .ulmenu{
-    
+    margin-top: 10vh;
 }
 button{
     font: 16px archivo;
@@ -241,22 +243,24 @@ button:hover{
     transition: 300ms;
 }
 .contactme{ 
-    color: #dee0e0;
-    background: #435055;
-    margin-top: 8vh;
+    color: #27323A;
+    background: #dee0e0;
+    margin-top: 5vh;
+    width: 230px;
 }
 .contactme:hover{
-    background: #29a17d;
+    background: #27323A;
+    color: #dee0e0;
 }
 .buttonmenu{
     font: 20px mavenpro;  
-    font-weight: 450;
+    font-weight: 550;
     background: transparent;
-  
+    text-align: right;
 }
 .buttonmenu:hover{ 
-    background: #cecfcf;
-    padding-left: 15px;
+    background: #279876;
+    padding-right: 15px;
 }
 
 
@@ -267,7 +271,6 @@ button:hover{
     justify-content: center;
     align-items: center;
     position: absolute;
-     
 }
 .social:nth-child(1){
     border-top-right-radius: 0;
@@ -298,8 +301,8 @@ li:hover{
 }
 .contskill{  
     position: absolute;
-    top: 10vh;
-    right: 17vw;
+    top:25vh;
+    left: 15vw;
 }
 .skill_titulo{
     display: flex;
