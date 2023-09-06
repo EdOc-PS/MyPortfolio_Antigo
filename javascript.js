@@ -1,15 +1,33 @@
-  
+var divprin0 = document.querySelector(".principal0")
   var divprin = document.querySelector(".principal")
     var divprin2 = document.querySelector(".principal2")
       var divprin3 = document.querySelector(".principal3")
 
+
+function somehome()
+  {
+    if(divprin0.style.display === "none") {
+      divprin0.style.display = "inline-flex";
+        divprin.style.display = "none";
+          divprin2.style.display = "none";
+           divprin3.style.display = "none";
+    }else {
+     divprin0.style.display = "inline-flex";
+      divprin.style.display = "none";
+        divprin2.style.display = "none";
+          divprin3.style.display = "none";
+   }
+ }
+
 function somemim()
 {
     if(divprin.style.display === "none") {
+      divprin0.style.display = "none";
         divprin.style.display = "inline-flex";
          divprin2.style.display = "none";
            divprin3.style.display = "none";
     }else {
+    divprin0.style.display = "none";
       divprin.style.display = "inline-flex";
         divprin2.style.display = "none";
           divprin3.style.display = "none";
@@ -18,10 +36,12 @@ function somemim()
 function somecar()
 {
     if(divprin2.style.display === "none") {
+      divprin0.style.display = "none";
         divprin2.style.display = "inline-flex";
           divprin.style.display = "none";
             divprin3.style.display = "none"; 
     }else {
+    divprin0.style.display = "none";
       divprin.style.display = "none";
         divprin3.style.display = "none";
           divprin2.style.display = "inline-flex";
@@ -30,11 +50,13 @@ function somecar()
 function someexp()
 {
     if(divprin3.style.display === "none") {
+    divprin0.style.display = "none";
       divprin3.style.display = "inline-flex";
         divprin.style.display = "none";
           divprin2.style.display = "none";
       
     }else {
+     divprin0.style.display = "none";
       divprin.style.display = "none";
         divprin2.style.display = "none";
           divprin3.style.display = "inline-flex";
