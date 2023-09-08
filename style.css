@@ -250,6 +250,7 @@ header{
     justify-content: center;
     border-radius: 50%;
 }
+
 a{
     color:#dee0e0;
 }
@@ -313,7 +314,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 12vh;
+    top: 10vh;
 }
 
 ul{
@@ -364,7 +365,7 @@ li:hover{
     margin-right: 10px;
 }
 .skill_bar{
-    background: rgb(41, 161, 125);
+    background: #29a17d;
     margin-right: 10px;
     border-radius: 10px;
 }
@@ -381,11 +382,13 @@ h2{
     position: relative;
     text-align: left;
 }
+
 .Education_container{   
     display: flex;
     right: 20vw;
     position: relative;
     text-align: left;
+    gap: 50px;
 }
 .Education_content{
     margin: 10px;
@@ -426,8 +429,8 @@ h2{
 .Education_Linha{
     height: 5px;
     display: block;
-    width: 110%;
-    background: linear-gradient(90deg, rgba(41, 161, 125, 1), rgba(41, 161, 125, 0)); 
+    width: 130%;
+    background: linear-gradient(90deg, #29a17d, #29a17d00); 
     transform: translate(5px, -10px); 
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
@@ -435,7 +438,11 @@ h2{
 /**Projetos**/
 .Projetos{
     position: absolute;
-    bottom: 10vh;   
+    bottom: 7vh;  
+    
+}
+.h2projetos{
+    right: 18.5vw;
 }
 .projetos_content{
     display: flex;
@@ -443,9 +450,9 @@ h2{
     position: relative;
 }
 .projeto_img{
-    border-radius: 10px;
-    width: 150px;
-    height: 180px;
+    border-radius: 15px;
+    width: 160px;
+    height: 200px;
     transition: 200ms ease;  
 }
 .projeto_img:hover{
@@ -453,7 +460,7 @@ h2{
     transition: 300ms ease;
 }
 .projeto_ul{
-    gap:25px;
+    gap: 50px;
     display: inline-flex;
     position: relative;
 }
