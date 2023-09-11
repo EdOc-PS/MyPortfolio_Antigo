@@ -372,6 +372,16 @@ li:hover{
 /****/
 
 /** Carreira**/
+
+.imgcar{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 20vh;
+    right: 30vw;
+    border: 1px solid #279876;
+    border-radius: 50%;
+}
 .Education{
     position: absolute;
     top: 20vh;
@@ -429,7 +439,7 @@ h2{
 .Education_Linha{
     height: 5px;
     display: block;
-    width: 130%;
+    width: 165%;
     background: linear-gradient(90deg, #29a17d, #29a17d00); 
     transform: translate(5px, -10px); 
     border-top-right-radius:5px;
