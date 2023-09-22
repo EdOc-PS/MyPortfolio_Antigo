@@ -4,9 +4,11 @@
 @font-face { font-family: mavenpro; 
     src: url('../MyPortfolio-main/font/Maven_Pro/MavenPro-VariableFont_wght.ttf'); 
 } 
+*
 body{
     user-select:none;
     background: #aec9c1;
+    overflow: hidden; 
 } 
 
 /**Cabeçalho**/
@@ -90,7 +92,7 @@ header{
 }
 /****/
 
-/**ligth mode**/
+/**color mode**/
 .ulheader .toggle-switch {
     position: relative;
     display: inline-block;
@@ -194,9 +196,7 @@ header{
     color: #27323A;
     
 }
-.reference{
-    margin-top: 10vh;
-}
+
 .imguser{ 
     border-radius:50%;
     width: 210px;
@@ -215,8 +215,12 @@ header{
     border-radius: 50%;
     transform: translate(-12.5px, -12.5px);
 }
+.mynome{
+    font-family: archivo;
+    margin-top: 30px;
+}
 .text{
-    margin-top: 40px;
+    margin-top: 20px;
     font: 20px mavenpro;
     font-weight: 600;
     width: 30vw;
@@ -234,8 +238,8 @@ header{
     color: #dee0e0;
 }
 .ulsocial{
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .lisocial{
     display: inline;
@@ -246,9 +250,14 @@ header{
     height: 45px;
     background: #27323A;
     display: inline-flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+}
+.divsocial:hover{
+    background: #29a17d;
+    transition: 300ms;
 }
 
 a{
@@ -317,6 +326,7 @@ button:hover{
     top: 10vh;
 }
 
+
 ul{
    list-style: none;
    padding: 0px;
@@ -328,32 +338,30 @@ li:hover{
 }
 
 /** Expêriencia **/
-.controle{
-    display: inline-flex;
-    gap: 30px;
-    margin-bottom: 30px;
-}
+
 .contskill{  
+    top: 20vh;
+    left: 4.5vw;
     position: absolute;
-    top:25vh;
-    left: 15vw;
+    
 }
 .skill_titulo{
     display: flex;
     text-align: left;
     font: 20px mavenpro;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
     font-weight: 600;
 }
 .skill_corpo{
     padding: 10px 10px;
     font: 15px archivo;
     display: flex;
-    width: 300px;  
+    width: 360px;  
     background: #27323A;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #dee0e0;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 }
 
 .skill_controle{
@@ -369,18 +377,32 @@ li:hover{
     margin-right: 10px;
     border-radius: 10px;
 }
-/****/
-
-/** Carreira**/
-.carwork{
-    border: 1px solid;
-    border-radius: 50%;
+.descbarra{
     display: flex;
+    text-align: left;
+    font: 16px mavenpro;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+/****/
+/**IMGS**/
+.habimg{
+    position: relative;
+    left: 38vw;
+    bottom: 15vh;
+}
+.carwork{
+    border-radius: 50%;
+    position: relative;
+    left: 20vw;
+    top: 27vh;
 }
 .imgStoryset{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 }
+/****/
+/** Carreira**/
 .imgcar{
     width: 250px;
     height: 250px;
@@ -482,7 +504,20 @@ h2{
     display: inline-flex;
     position: relative;
 }
-
+/**Sobre mim**/
+.about_container{
+    border: 2px solid #279876;
+}
+.abaout_content{
+        font: 22px mavenpro;
+        font-weight: 600;
+        width: 20vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        word-break: break-all;
+        text-align: left;
+        border: 2px solid;
+}
 
 /**ANIMATION**/
 @keyframes fade{
