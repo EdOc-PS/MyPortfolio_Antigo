@@ -505,8 +505,9 @@ h2{
     position: relative;
 }
 /**Sobre mim**/
-.about_container{
-    border: 2px solid #279876;
+.about_tr{
+height: 300px;
+width: 300px;
 }
 .abaout_content{
         font: 22px mavenpro;
