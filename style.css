@@ -505,16 +505,20 @@ h2{
     position: relative;
 }
 /**Sobre mim**/
+.about_container{
+    position: relative;
+    top: 10vh;
+}
 .about_tr{
-height: 300px;
-width: 300px;
+    height: 300px;
+}
+td{
+    width: 28vw;
 }
 .abaout_content{
         font: 22px mavenpro;
         font-weight: 600;
         width: 20vw;
-        margin-left: 20px;
-        margin-right: 20px;
         word-break: break-all;
         text-align: left;
         border: 2px solid;
