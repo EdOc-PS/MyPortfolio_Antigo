@@ -1,33 +1,37 @@
-@font-face { font-family: archivo; 
-    src: url('../MyPortfolio-main/font/Archivo/Archivo-VariableFont_wdth\,wght.ttf'); 
-} 
-@font-face { font-family: mavenpro; 
-    src: url('../MyPortfolio-main/font/Maven_Pro/MavenPro-VariableFont_wght.ttf'); 
-} 
-*
-body{
-    user-select:none;
+@font-face {
+    font-family: archivo;
+    src: url('../MyPortfolio-main/font/Archivo/Archivo-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: mavenpro;
+    src: url('../MyPortfolio-main/font/Maven_Pro/MavenPro-VariableFont_wght.ttf');
+}
+
+body {
+    user-select: none;
     background: #aec9c1;
-    overflow: hidden; 
-} 
+    overflow: hidden;
+}
 
 /**Cabeçalho**/
-header{
+header {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
     height: 10vh;
-    
-}
-.ulheader{
-    margin-right: 35px;
-    display: inline-flex;
-    animation: fade 400ms ease-in; 
-    gap: 15px; 
-    align-items: center;   
+
 }
 
-.ulheader .lenguage_colors{
+.ulheader {
+    margin-right: 35px;
+    display: inline-flex;
+    animation: fade 400ms ease-in;
+    gap: 15px;
+    align-items: center;
+}
+
+.ulheader .lenguage_colors {
     cursor: default;
     display: flex;
     justify-content: center;
@@ -39,11 +43,13 @@ header{
     border-radius: 10px;
     box-shadow: 0 0 5px #435055;
 }
+
 /**Idioma**/
-.select-lenguage{
+.select-lenguage {
     display: flex;
 }
-.ulheader .select-button{
+
+.ulheader .select-button {
     cursor: pointer;
     display: inline-flex;
     width: 105px;
@@ -57,7 +63,7 @@ header{
     color: #27323A;
 }
 
-.select-option{
+.select-option {
     cursor: default;
     background: #dee0e0;
     border-radius: 5px;
@@ -72,7 +78,7 @@ header{
     box-shadow: 0px 2px 10px #2b2b2b;
 }
 
-.select-option .option{
+.select-option .option {
     display: flex;
     gap: 5px;
     border-radius: 5px;
@@ -82,14 +88,16 @@ header{
     transition: 300ms ease-in-out;
 }
 
-.select-option .option:hover{
+.select-option .option:hover {
     background: #cecfcf;
     transition: 300ms ease-in-out;
     padding-left: 10px;
 }
-.select-button i{
+
+.select-button i {
     transition: 300ms;
 }
+
 /****/
 
 /**color mode**/
@@ -98,8 +106,9 @@ header{
     display: inline-block;
     width: 60px;
     height: 35px;
-  }
-  .slider {
+}
+
+.slider {
     border-radius: 5px;
     position: absolute;
     cursor: pointer;
@@ -110,9 +119,9 @@ header{
     background: #dee0e0;
     -webkit-transition: .4s;
     transition: .4s;
-  }
+}
 
-  .slider:before {
+.slider:before {
     border-radius: 30%;
     position: absolute;
     content: "";
@@ -123,25 +132,26 @@ header{
     background-color: #29a17d;
     -webkit-transition: .4s;
     transition: .4s;
-  }
+}
 
-  input:checked + .slider {
+input:checked+.slider {
     background-color: #dee0e0;
-  }
+}
 
-  /**input:focus + .slider {
+/**input:focus + .slider {
     box-shadow: 0 0 1px #435055;
   }
   **/
 
-  input:checked + .slider:before {
+input:checked+.slider:before {
     transform: translateX(25px);
     background-color: #F7C04A;
-  }
+}
+
 /****/
 
 /**Corpo**/
-.principal0{
+.principal0 {
     border-radius: 10px;
     position: absolute;
     top: 12%;
@@ -150,9 +160,10 @@ header{
     background: transparent;
     box-shadow: 0px 5px 10px #2b2b2b49;
     animation: fade 400ms ease-in;
-  
+
 }
-.principal{
+
+.principal {
     border-radius: 10px;
     position: absolute;
     top: 12%;
@@ -161,32 +172,35 @@ header{
     background: transparent;
     box-shadow: 0px 5px 10px #2b2b2b49;
     animation: fade 400ms ease-in;
-  
+
 }
-.principal2{
+
+.principal2 {
     border-radius: 10px;
     position: absolute;
     top: 12%;
     display: none;
     background: transparent;
-    box-shadow: 0px 5px 10px #2b2b2b;
+    box-shadow: 0px 5px 10px #2b2b2b49;
     animation: fade 400ms ease-in;
     right: 8%;
 }
-.principal3{
+
+.principal3 {
     border-radius: 10px;
     position: absolute;
-    top: 12%;   
+    top: 12%;
     display: none;
     background: transparent;
-    box-shadow: 0px 5px 10px #2b2b2b;
+    box-shadow: 0px 5px 10px #2b2b2b49;
     animation: fade 400ms ease-in;
     right: 8%;
 }
-.cont{
-    display:flex;
+
+.cont {
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     background: #dee0e0;
     width: 65vw;
     height: 85vh;
@@ -194,19 +208,21 @@ header{
     border-bottom-left-radius: 10px;
     text-align: center;
     color: #27323A;
-    
+
 }
 
-.imguser{ 
-    border-radius:50%;
+.imguser {
+    border-radius: 50%;
     width: 210px;
     height: 210px;
     border: 1px solid #29a17d;
 }
-.imgu{
+
+.imgu {
     display: block;
 }
-.imgu::before{
+
+.imgu::before {
     content: '';
     position: absolute;
     width: 230px;
@@ -215,11 +231,13 @@ header{
     border-radius: 50%;
     transform: translate(-12.5px, -12.5px);
 }
-.mynome{
+
+.mynome {
     font-family: archivo;
     margin-top: 30px;
 }
-.text{
+
+.text {
     margin-top: 20px;
     font: 20px mavenpro;
     font-weight: 600;
@@ -228,26 +246,31 @@ header{
     margin-right: 40px;
     word-break: break-all;
 }
-.contactme{ 
+
+.contactme {
     color: #dee0e0;
     background: #27323A;
     width: 290px;
 }
-.contactme:hover{
+
+.contactme:hover {
     background: #29a17d;
     color: #dee0e0;
 }
-.ulsocial{
+
+.ulsocial {
     margin-bottom: 30px;
     margin-top: 30px;
 }
-.lisocial{
+
+.lisocial {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
-.divsocial{
-    width: 45px;
-    height: 45px;
+
+.divsocial { 
+    width: 50px;
+    height: 50px;
     background: #27323A;
     display: inline-flex;
     text-align: center;
@@ -255,43 +278,49 @@ header{
     justify-content: center;
     border-radius: 50%;
 }
-.divsocial:hover{
+
+.divsocial:hover {
     background: #29a17d;
     transition: 300ms;
 }
 
-a{
-    color:#dee0e0;
+a {
+    color: #dee0e0;
 }
+
 /** menu **/
-.menu{
-    border-top-right-radius:10px;
-    border-bottom-right-radius:10px;
+.menu {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     background: #29a17d;
     width: 20vw;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
-    
+
 }
-.limenu{
+
+.limenu {
     margin: 35px 0;
 }
-.ulmenu{
+
+.ulmenu {
     margin-bottom: 13vh;
 }
-.Dcurriculo{
+
+.Dcurriculo {
     background: #F95959;
     color: #f0ffff;
     width: 230px;
 }
-.Dcurriculo:hover{
+
+.Dcurriculo:hover {
     background: #e44f4f;
 }
 
-button{
+button {
     font: 16px archivo;
-    font-weight: 800; 
+    font-weight: 800;
     transition: 300ms;
     cursor: pointer;
     border-radius: 10px;
@@ -300,24 +329,26 @@ button{
     border: none;
     color: #dee0e0;
 }
-button:hover{
+
+button:hover {
     transition: 300ms;
 }
 
-.buttonmenu{
-    font: 20px mavenpro;  
+.buttonmenu {
+    font: 20px mavenpro;
     font-weight: 550;
     background: transparent;
     text-align: right;
 }
-.buttonmenu:hover{ 
+
+.buttonmenu:hover {
     background: #279876;
     padding-right: 15px;
 }
 
 
 /** social **/
-.social{
+.social {
     font-family: archivo;
     display: flex;
     justify-content: center;
@@ -327,25 +358,26 @@ button:hover{
 }
 
 
-ul{
-   list-style: none;
-   padding: 0px;
-   text-align: center;
+ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
 }
 
-li:hover{
-    cursor: pointer;   
+li:hover {
+    cursor: pointer;
 }
 
 /** Expêriencia **/
 
-.contskill{  
+.contskill {
     top: 20vh;
     left: 4.5vw;
     position: absolute;
-    
+
 }
-.skill_titulo{
+
+.skill_titulo {
     display: flex;
     text-align: left;
     font: 20px mavenpro;
@@ -353,57 +385,65 @@ li:hover{
     margin-top: 20px;
     font-weight: 600;
 }
-.skill_corpo{
+
+.skill_corpo {
     padding: 10px 10px;
     font: 15px archivo;
     display: flex;
-    width: 360px;  
+    width: 360px;
     background: #27323A;
     border-radius: 10px;
     color: #dee0e0;
     margin-bottom: 7px;
 }
 
-.skill_controle{
+.skill_controle {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.skill_icon{
+
+.skill_icon {
     margin-right: 10px;
 }
-.skill_bar{
+
+.skill_bar {
     background: #29a17d;
     margin-right: 10px;
     border-radius: 10px;
 }
-.descbarra{
+
+.descbarra {
     display: flex;
     text-align: left;
     font: 16px mavenpro;
     margin-bottom: 2px;
     font-weight: 500;
 }
+
 /****/
 /**IMGS**/
-.habimg{
+.habimg {
     position: relative;
     left: 38vw;
     bottom: 15vh;
 }
-.carwork{
+
+.carwork {
     border-radius: 50%;
     position: relative;
     left: 20vw;
     top: 27vh;
 }
-.imgStoryset{
-    width: 350px;
-    height: 350px;
+
+.imgStoryset {
+    width: 340px;
+    height: 340px;
 }
+
 /****/
 /** Carreira**/
-.imgcar{
+.imgcar {
     width: 250px;
     height: 250px;
     position: absolute;
@@ -412,28 +452,32 @@ li:hover{
     border: 1px solid #279876;
     border-radius: 50%;
 }
-.Education{
+
+.Education {
     position: absolute;
     top: 20vh;
 }
-h2{
+
+h2 {
     font: 23px mavenpro;
     right: 19.5vw;
     position: relative;
     text-align: left;
 }
 
-.Education_container{   
+.Education_container {
     display: flex;
     right: 20vw;
     position: relative;
     text-align: left;
     gap: 50px;
 }
-.Education_content{
+
+.Education_content {
     margin: 10px;
 }
-.Education_Curso{ 
+
+.Education_Curso {
     justify-content: right;
     width: 120px;
     word-break: break-word;
@@ -442,14 +486,17 @@ h2{
     margin: 0;
 }
 
-.Education_local, .Education_date{
+.Education_local,
+.Education_date {
     font: 17px mavenpro;
 }
-.Education_Space{
+
+.Education_Space {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.Education_Bola{
+
+.Education_Bola {
     position: relative;
     display: block;
     width: 16px;
@@ -457,7 +504,8 @@ h2{
     border-radius: 50%;
     background: #29a17d;
 }
-.Education_Bola::before{
+
+.Education_Bola::before {
     content: '';
     position: absolute;
     width: 21px;
@@ -466,71 +514,83 @@ h2{
     border-radius: 50%;
     transform: translate(-4.5px, -4.5px);
 }
-.Education_Linha{
+
+.Education_Linha {
     height: 5px;
     display: block;
     width: 165%;
-    background: linear-gradient(90deg, #29a17d, #29a17d00); 
-    transform: translate(5px, -10px); 
-    border-top-right-radius:5px;
-    border-bottom-right-radius:5px;
-}  
-/**Projetos**/
-.Projetos{
-    position: absolute;
-    bottom: 7vh;  
-    
+    background: linear-gradient(90deg, #29a17d, #29a17d00);
+    transform: translate(5px, -10px);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-.h2projetos{
+
+/**Projetos**/
+.Projetos {
+    position: absolute;
+    bottom: 7vh;
+
+}
+
+.h2projetos {
     right: 18.5vw;
 }
-.projetos_content{
+
+.projetos_content {
     display: flex;
     right: 18.5vw;
     position: relative;
 }
-.projeto_img{
+
+.projeto_img {
     border-radius: 15px;
     width: 160px;
     height: 200px;
-    transition: 200ms ease;  
+    transition: 200ms ease;
 }
-.projeto_img:hover{
+
+.projeto_img:hover {
     transform: scale(1.1);
     transition: 300ms ease;
 }
-.projeto_ul{
+
+.projeto_ul {
     gap: 50px;
     display: inline-flex;
     position: relative;
 }
+
 /**Sobre mim**/
-.about_container{
+
+
+.about_container {
     position: relative;
-    top: 10vh;
+    top: 7vh;
 }
-.about_tr{
+
+.about_tr {
     height: 300px;
 }
-td{
+
+td {
     width: 28vw;
 }
-.abaout_content{
-        font: 22px mavenpro;
-        font-weight: 600;
-        width: 20vw;
-        word-break: break-all;
-        text-align: left;
-        border: 2px solid;
+
+.abaout_content {
+    font: 22px mavenpro;
+    font-weight: 500;
+    word-break:break-all;
+    text-align: left;
+ 
 }
 
 /**ANIMATION**/
-@keyframes fade{
-    from{
+@keyframes fade {
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
-
