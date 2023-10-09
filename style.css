@@ -1,11 +1,11 @@
 @font-face {
     font-family: archivo;
-    src: url('../MyPortfolio-main/font/Archivo/Archivo-VariableFont_wdth\,wght.ttf');
+    src: url('font/Archivo/Archivo-VariableFont_wdth\,wght.ttf');
 }
 
 @font-face {
     font-family: mavenpro;
-    src: url('../MyPortfolio-main/font/Maven_Pro/MavenPro-VariableFont_wght.ttf');
+    src: url('font/Maven_Pro/MavenPro-VariableFont_wght.ttf');
 }
 
 body {
