@@ -424,9 +424,16 @@ li:hover {
 /****/
 /**IMGS**/
 .habimg {
+    justify-content: center;
+    align-items: center;
+    display: flex;
     position: relative;
-    left: 38vw;
-    bottom: 15vh;
+    left: 28vw;
+    bottom: 25vh;
+    background-color: #435055;
+    border-radius: 50%;
+    width: 430px;
+    height: 430px;
 }
 
 .carwork {
@@ -437,8 +444,8 @@ li:hover {
 }
 
 .imgStoryset {
-    width: 340px;
-    height: 340px;
+    width: 300px;
+    height: 300px;
 }
 
 /****/
