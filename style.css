@@ -428,24 +428,30 @@ li:hover {
     align-items: center;
     display: flex;
     position: relative;
-    left: 28vw;
-    bottom: 25vh;
+    left: 42vw;
+    bottom: 10vh;
     background-color: #435055;
     border-radius: 50%;
-    width: 430px;
-    height: 430px;
+    width: 210px;
+    height: 210px;
 }
 
 .carwork {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #435055;
     border-radius: 50%;
     position: relative;
-    left: 20vw;
-    top: 27vh;
+    left: 19.5vw;
+    top: 26vh;
+    width: 210px;
+    height: 210px;
 }
 
 .imgStoryset {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
 }
 
 /****/
