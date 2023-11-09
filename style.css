@@ -319,13 +319,13 @@ a {
 }
 
 button {
-    font: 16px archivo;
+    font: 17px archivo;
     font-weight: 800;
     transition: 300ms;
     cursor: pointer;
     border-radius: 10px;
     width: 185px;
-    height: 65px;
+    height: 70px;
     border: none;
     color: #dee0e0;
 }
@@ -335,7 +335,7 @@ button:hover {
 }
 
 .buttonmenu {
-    font: 20px mavenpro;
+    font: 21px mavenpro;
     font-weight: 550;
     background: transparent;
     text-align: right;
@@ -343,7 +343,7 @@ button:hover {
 
 .buttonmenu:hover {
     background: #279876;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
 
