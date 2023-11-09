@@ -202,7 +202,7 @@ input:checked+.slider:before {
     justify-content: center;
     align-items: center;
     background: #dee0e0;
-    width: 65vw;
+    width: 64vw;
     height: 85vh;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -293,7 +293,7 @@ a {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background: #29a17d;
-    width: 20vw;
+    width: 21vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -473,14 +473,15 @@ li:hover {
 
 h2 {
     font: 23px mavenpro;
-    right: 19.5vw;
+    right: 20.5vw;
     position: relative;
     text-align: left;
+    font-weight: 450;
 }
 
 .Education_container {
     display: flex;
-    right: 20vw;
+    right: 21vw;
     position: relative;
     text-align: left;
     gap: 50px;
@@ -556,19 +557,19 @@ h2 {
 }
 
 .projeto_img {
-    border-radius: 15px;
-    width: 160px;
+    border-radius: 10px;
+    width: 200px;
     height: 200px;
-    transition: 200ms ease;
+    transition: 170ms ease-out;
 }
 
 .projeto_img:hover {
-    transform: scale(1.1);
-    transition: 300ms ease;
+    transform: scale(1.15);
+    transition: 350ms ease-in-out;
 }
 
 .projeto_ul {
-    gap: 50px;
+    gap: 10px;
     display: inline-flex;
     position: relative;
 }
@@ -578,10 +579,12 @@ h2 {
 .about_container {
     position: relative;
     top: 7vh;
+    
 }
 
 .about_tr {
     height: 300px;
+    
 }
 
 td {
@@ -595,7 +598,16 @@ td {
     text-align: left;
  
 }
-
+.aboutimg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background-color: #435055;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px; 
+}
 /**ANIMATION**/
 @keyframes fade {
     from {
