@@ -10,7 +10,7 @@
 
 body {
     user-select: none;
-    background: #aec9c1;
+    background: #c5d7d2;
     overflow: hidden;
 }
 
@@ -18,8 +18,8 @@ body {
 .ulheader {
     display: inline-flex;
     animation: fade 400ms ease-in;
-    left: 9vw;
-    top: -7vh;
+    left: 8.5vw;
+    top: -11.5vh;
     position: relative;
 }
 
@@ -28,10 +28,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 20px;
     width: 10.6vw;
-    height: 55px;
-    border-radius: 10px;
+  
     /*box-shadow: 0 0 5px #435055;*/
 }
 
@@ -45,8 +44,8 @@ body {
     display: inline-flex;
     width: 4.8vw;
     height: 35px;
-    background: #dee0e0;
-    border-radius: 5px;
+    background: #F7F5F2;
+    border-radius: 10px;
     cursor: pointer;
     font: 15px archivo;
     align-items: center;
@@ -56,8 +55,8 @@ body {
 
 .select-option {
     cursor: default;
-    background: #dee0e0;
-    border-radius: 5px;
+    background: #F7F5F2;
+    border-radius: 10px;
     font: 15px mavenpro;
     width: 105px;
     position: absolute;
@@ -66,21 +65,21 @@ body {
     margin-top: 10px;
     display: none;
     right: 4.5vw;
-    box-shadow: -5px 5px 0 #2b2b2b5f;
+    box-shadow: -5px 5px 3px #2b2b2b71;
 }
 
 .select-option .option {
     display: flex;
     gap: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     align-items: center;
     transition: 300ms ease-in-out;
 }
 
 .select-option .option:hover {
-    background: #cecfcf;
+    background: #e2efec;
     transition: 300ms ease-in-out;
     padding-left: 10px;
 }
@@ -106,7 +105,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #dee0e0;
+    background: #F7F5F2;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -119,13 +118,13 @@ body {
     width: 27px;
     left: 4px;
     bottom: 4px;
-    background-color: #29a17d;
+    background-color: #4BAEA0;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked+.slider {
-    background-color: #dee0e0;
+    background-color: #F7F5F2;
 }
 
 /**input:focus + .slider {
@@ -148,7 +147,7 @@ input:checked+.slider:before {
     right: 5%;
     display: inline-flex;
     background: transparent;
-    box-shadow: -0px 5px 5px #2b2b2b81;
+    box-shadow: -5px 5px 3px #2b2b2b71;
     animation: fade 400ms ease-in;
 
 }
@@ -160,7 +159,7 @@ input:checked+.slider:before {
     right: 5%;
     display: none;
     background: transparent;
-    box-shadow: 0px 5px 10px #2b2b2b49;
+    box-shadow: -5px 5px 3px #2b2b2b71;
     animation: fade 400ms ease-in;
 
 }
@@ -172,7 +171,7 @@ input:checked+.slider:before {
     right: 5%;
     display: none;
     background: transparent;
-    box-shadow: 0px 5px 10px #2b2b2b49;
+    box-shadow: -5px 5px 3px #2b2b2b71;
     animation: fade 400ms ease-in;
 }
 
@@ -183,7 +182,7 @@ input:checked+.slider:before {
     right: 5%;
     display: none;
     background: transparent;
-    box-shadow: 0px 5px 10px #2b2b2b49;
+    box-shadow: -5px 5px 3px #2b2b2b71;
     animation: fade 400ms ease-in;
 }
 
@@ -191,7 +190,7 @@ input:checked+.slider:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #dee0e0;
+    background: #F7F5F2;
     width: 65vw;
     height: 90vh;
     border-top-left-radius: 10px;
@@ -214,11 +213,11 @@ input:checked+.slider:before {
 .imgu::before {
     content: '';
     position: absolute;
-    width: 250px;
-    height: 250px;
-    border: 5px solid #29a17d;
+    width: 255px;
+    height: 255px;
+    border: 5px solid #4BAEA0;
     border-radius: 50%;
-    transform: translate(-9.5px, -9.5px);
+    transform: translate(-12px, -12px);
 }
 
 .mynome {
@@ -238,18 +237,6 @@ input:checked+.slider:before {
     margin-right: 40px;
     word-break: break-all;
 }
-
-.contactme {
-    color: #dee0e0;
-    background: #27323A;
-    width: 290px;
-}
-
-.contactme:hover {
-    background: #29a17d;
-    color: #dee0e0;
-}
-
 .ulsocial {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -272,19 +259,19 @@ input:checked+.slider:before {
 }
 
 .divsocial:hover {
-    background: #29a17d;
+    background: #4BAEA0;
     transition: 300ms;
 }
 
 a {
-    color: #dee0e0;
+    color: #F7F5F2;
 }
 
 /** menu **/
 .menu {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: #29a17d;
+    background: #4BAEA0;
     width: 25vw;
     display: flex;
     justify-content: center;
@@ -302,9 +289,10 @@ a {
 }
 
 .Dcurriculo {
-    background: #F95959;
+    background: #FF6969;
     color: #f0ffff;
-    width: 300px;  
+    width: 315px;  
+    word-spacing: 15px;
 }
 
 .Dcurriculo:hover {
@@ -312,15 +300,16 @@ a {
 }
 
 button {
-    font: 17px archivo;
+    letter-spacing: 1.2px;
+    font: 18px archivo;
     font-weight: 800;
     transition: 300ms;
     cursor: pointer;
     border-radius: 10px;
-    width: 185px;
+    width: 220px;
     height: 70px;
     border: none;
-    color: #dee0e0;
+    color: #F7F5F2;
 }
 
 button:hover {
@@ -335,7 +324,7 @@ button:hover {
 }
 
 .buttonmenu:hover {
-    background: #279876;
+    background: #429a8e;
     padding-right: 20px;
 }
 
@@ -386,7 +375,7 @@ li:hover {
     width: 360px;
     background: #27323A;
     border-radius: 10px;
-    color: #dee0e0;
+    color: #F7F5F2;
     margin-bottom: 7px;
 }
 
@@ -401,7 +390,7 @@ li:hover {
 }
 
 .skill_bar {
-    background: #29a17d;
+    background: #4BAEA0;
     margin-right: 10px;
     border-radius: 10px;
 }
@@ -422,7 +411,7 @@ li:hover {
     display: flex;
     position: relative;
     left: 42vw;
-    bottom: 10vh;
+    bottom: 8vh;
     background-color: #435055;
     border-radius: 50%;
     width: 210px;
@@ -437,7 +426,7 @@ li:hover {
     border-radius: 50%;
     position: relative;
     left: 19.5vw;
-    top: 26vh;
+    bottom: -26.5vh;
     width: 210px;
     height: 210px;
 }
@@ -509,7 +498,7 @@ h2 {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: #29a17d;
+    background: #4BAEA0;
 }
 
 .Education_Bola::before {
@@ -517,7 +506,7 @@ h2 {
     position: absolute;
     width: 21px;
     height: 21px;
-    border: 2px solid #29a17d;
+    border: 2px solid #4BAEA0;
     border-radius: 50%;
     transform: translate(-4.5px, -4.5px);
 }
@@ -526,7 +515,7 @@ h2 {
     height: 5px;
     display: block;
     width: 165%;
-    background: linear-gradient(90deg, #29a17d, #29a17d00);
+    background: linear-gradient(90deg, #4BAEA0, #4BAEA000);
     transform: translate(5px, -10px);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;

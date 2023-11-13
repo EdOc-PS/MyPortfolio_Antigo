@@ -27,5 +27,9 @@
     não prcisa declarar ids pois a classe esta pegando todos os ids de uma vez - testado
 }
 - cores{
-    #27323A
+    #27323A - preto
+    #4BAEA0
+    #27B288
+  
+
 }
