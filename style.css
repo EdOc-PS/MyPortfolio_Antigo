@@ -18,7 +18,7 @@ body {
 .ulheader {
     display: inline-flex;
     animation: fade 400ms ease-in;
-    left: 8.5vw;
+    left: 9.5vw;
     top: -11.5vh;
     position: relative;
 }
@@ -64,7 +64,7 @@ body {
     padding: 10px;
     margin-top: 10px;
     display: none;
-    right: 4.5vw;
+    right: 4.15vw;
     box-shadow: -5px 5px 3px #2b2b2b71;
 }
 
