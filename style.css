@@ -7,7 +7,6 @@
     font-family: mavenpro;
     src: url('font/Maven_Pro/MavenPro-VariableFont_wght.ttf');
 }
-
 body {
     user-select: none;
     background: #c5d7d2;
@@ -334,12 +333,15 @@ input:checked+.slider:before {
 
 /** social **/
 .social {
-    font-family: archivo;
+    font: 18px archivo;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 6vh;
+    width: 300px;
+    height: 40px;
+    border-bottom: 4px solid #429a8e;
 }
 
 
