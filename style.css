@@ -14,131 +14,6 @@ body {
     overflow: hidden;
 }
 
-/**Cabeçalho**/
-.ulheader {
-    display: inline-flex;
-    animation: fade 400ms ease-in;
-    left: 9.5vw;
-    top: -11.5vh;
-    position: relative;
-}
-
-.ulheader .lenguage_colors {
-    cursor: default;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 10.6vw;
-  
-    /*box-shadow: 0 0 5px #435055;*/
-}
-
-/**Idioma**/
-.select-lenguage {
-    display: flex;
-}
-
-.ulheader .select-button {
-    cursor: pointer;
-    display: inline-flex;
-    width: 4.8vw;
-    height: 35px;
-    background: #F7F5F2;
-    border-radius: 10px;
-    cursor: pointer;
-    font: 15px archivo;
-    align-items: center;
-    justify-content: space-between;
-    color: #27323A;
-}
-
-.select-option {
-    cursor: default;
-    background: #F7F5F2;
-    border-radius: 10px;
-    font: 15px mavenpro;
-    width: 105px;
-    position: absolute;
-    z-index: 1;
-    padding: 10px;
-    margin-top: 10px;
-    display: none;
-    right: 4.15vw;
-    box-shadow: -5px 5px 3px #2b2b2b71;
-}
-
-.select-option .option {
-    display: flex;
-    gap: 5px;
-    border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 8px;
-    align-items: center;
-    transition: 300ms ease-in-out;
-}
-
-.select-option .option:hover {
-    background: #e2efec;
-    transition: 300ms ease-in-out;
-    padding-left: 10px;
-}
-
-.select-button i {
-    transition: 300ms;
-}
-/****/
-
-/**color mode**/
-.ulheader .toggle-switch {
-    position: relative;
-    display: inline-block;
-    width:  3.2vw;
-    height: 35px;
-}
-
-.slider {
-    border-radius: 10px;
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #F7F5F2;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-.slider:before {
-    border-radius: 50%;
-    position: absolute;
-    content: "";
-    height: 27px;
-    width: 27px;
-    left: 4px;
-    bottom: 4px;
-    background-color: #4BAEA0;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-input:checked+.slider {
-    background-color: #F7F5F2;
-}
-
-/**input:focus + .slider {
-    box-shadow: 0 0 1px #435055;
-  }
-  **/
-
-input:checked+.slider:before {
-    transform: translateX(25px);
-    background-color: #435055;
-}
-
-/****/
-
 /**Corpo**/
 .principal0 {
     border-radius: 10px;
@@ -224,10 +99,12 @@ input:checked+.slider:before {
     font-family: archivo;
     margin-top: 30px;
 }
-.reference{
+
+.reference {
     position: relative;
     bottom: -5%;
 }
+
 .text {
     margin-top: 20px;
     font: 20px mavenpro;
@@ -237,6 +114,7 @@ input:checked+.slider:before {
     margin-right: 40px;
     word-break: break-all;
 }
+
 .ulsocial {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -247,7 +125,7 @@ input:checked+.slider:before {
     margin: 0 10px;
 }
 
-.divsocial { 
+.divsocial {
     width: 50px;
     height: 50px;
     background: #27323A;
@@ -269,14 +147,13 @@ a {
 
 /** menu **/
 .menu {
+    flex-direction: column;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background: #4BAEA0;
     width: 25vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-
 }
 
 .limenu {
@@ -291,7 +168,7 @@ a {
 .Dcurriculo {
     background: #FF6969;
     color: #f0ffff;
-    width: 315px;  
+    width: 315px;
     word-spacing: 15px;
 }
 
@@ -327,7 +204,133 @@ button:hover {
     background: #429a8e;
     padding-right: 20px;
 }
+.vazio{
+    height: 70px;
+}
+/**Cabeçalho**/
+.ulheader {
+    display: inline-flex;
+    animation: fade 400ms ease-in;
+    right: -13.5vw;
+    top: -12vh;
+    position: relative;
+}
 
+.ulheader .lenguage_colors {
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 10.6vw;
+    /*box-shadow: 0 0 5px #435055;*/
+}
+
+/**Idioma**/
+.select-lenguage {
+    display: flex;
+}
+
+.ulheader .select-button {
+    cursor: pointer;
+    display: inline-flex;
+    width: 4.8vw;
+    height: 35px;
+    background: #F7F5F2;
+    border-radius: 10px;
+    cursor: pointer;
+    font: 15px archivo;
+    align-items: center;
+    justify-content: space-between;
+    color: #27323A;
+}
+
+.select-option {
+    cursor: default;
+    background: #F7F5F2;
+    border-radius: 10px;
+    font: 15px mavenpro;
+    width: 105px;
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    margin-top: 10px;
+    display: none;
+    left:  -0.25vw;
+    box-shadow: -5px 5px 3px #2b2b2b71;
+}
+
+.select-option .option {
+    display: flex;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 8px;
+    align-items: center;
+    transition: 300ms ease-in-out;
+}
+
+.select-option .option:hover {
+    background: #e2efec;
+    transition: 300ms ease-in-out;
+    padding-left: 10px;
+}
+
+.select-button i {
+    transition: 300ms;
+}
+
+/****/
+
+/**color mode**/
+.ulheader .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 3.2vw;
+    height: 35px;
+}
+
+.slider {
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F7F5F2;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    height: 27px;
+    width: 27px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #4BAEA0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #F7F5F2;
+}
+
+/**input:focus + .slider {
+    box-shadow: 0 0 1px #435055;
+  }
+  **/
+
+input:checked+.slider:before {
+    transform: translateX(25px);
+    background-color: #435055;
+}
+
+/****/
 
 /** social **/
 .social {
@@ -336,7 +339,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 6vh; 
+    top: 6vh;
 }
 
 
@@ -411,7 +414,7 @@ li:hover {
     display: flex;
     position: relative;
     left: 42vw;
-    bottom: 8vh;
+    bottom: 14.5vh;
     background-color: #435055;
     border-radius: 50%;
     width: 210px;
@@ -561,12 +564,12 @@ h2 {
 .about_container {
     position: relative;
     top: 7vh;
-    
+
 }
 
 .about_tr {
     height: 300px;
-    
+
 }
 
 td {
@@ -576,11 +579,12 @@ td {
 .abaout_content {
     font: 22px mavenpro;
     font-weight: 500;
-    word-break:break-all;
+    word-break: break-all;
     text-align: left;
- 
+
 }
-.aboutimg{
+
+.aboutimg {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -588,8 +592,9 @@ td {
     background-color: #435055;
     border-radius: 50%;
     width: 210px;
-    height: 210px; 
+    height: 210px;
 }
+
 /**ANIMATION**/
 @keyframes fade {
     from {
