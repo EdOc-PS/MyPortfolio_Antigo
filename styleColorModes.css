@@ -1,6 +1,27 @@
-.darkMode-body{
-background: #576F72;
+.darkMode-body {
+    background: #80979a;
+    transition: background-color 0.3s
 }
-.lightMode-body{
-    background: #c5d7d2;
+
+.darkMode-cont {
+    background: #435055;
+    color: #F7F5F2;
+    transition: background-color 0.3s
+}
+.darkMode-dcurriculo{
+    background: #e44f4f;
+   
+}
+.darkMode-button{
+    color: #435055;
+    font-weight: 700;
+}
+.darkMode-habimg{
+    background:#27323A;
+}
+.darkMode-carwork{
+    background:#27323A;
+}
+.darkMode-aboutimg{
+    background:#27323A;
 }

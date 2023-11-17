@@ -11,6 +11,7 @@ body {
     user-select: none;
     background: #c5d7d2;
     overflow: hidden;
+   
 }
 
 /**Corpo**/
@@ -166,7 +167,7 @@ a {
 
 .Dcurriculo {
     background: #FF6969;
-    color: #f0ffff;
+    color: #F7F5F2;
     width: 315px;
     word-spacing: 15px;
 }
