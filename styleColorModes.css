@@ -1,16 +1,16 @@
 .darkMode-body {
     background: #80979a;
-    transition: background-color 0.3s
+  
 }
 
 .darkMode-cont {
     background: #435055;
     color: #F7F5F2;
-    transition: background-color 0.3s
+    
 }
 .darkMode-dcurriculo{
     background: #e44f4f;
-   
+   color: #F7F5F2;
 }
 .darkMode-button{
     color: #435055;
@@ -24,4 +24,8 @@
 }
 .darkMode-aboutimg{
     background:#27323A;
+}
+.darkMode-select-button{
+    background: #435055;
+    color: #F7F5F2;
 }

@@ -7,11 +7,12 @@
     font-family: mavenpro;
     src: url('font/Maven_Pro/MavenPro-VariableFont_wght.ttf');
 }
+
 body {
     user-select: none;
     background: #c5d7d2;
     overflow: hidden;
-   
+    transition: background-color 0.3s
 }
 
 /**Corpo**/
@@ -72,7 +73,7 @@ body {
     border-bottom-left-radius: 10px;
     text-align: center;
     color: #27323A;
-
+    transition: background-color 0.3s
 }
 
 .imguser {
@@ -204,9 +205,11 @@ button:hover {
     background: #429a8e;
     padding-right: 20px;
 }
-.vazio{
+
+.vazio {
     height: 70px;
 }
+
 /**Cabeçalho**/
 .ulheader {
     display: inline-flex;
@@ -256,7 +259,7 @@ button:hover {
     padding: 10px;
     margin-top: 10px;
     display: none;
-    left:  -0.25vw;
+    left: -0.25vw;
     box-shadow: -5px 5px 3px #2b2b2b71;
 }
 

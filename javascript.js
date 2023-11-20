@@ -59,48 +59,6 @@ function someexp() {
   }
 }
 
-//Mudar cor
-var body = document.querySelector("body")
-var cont = document.querySelectorAll(".cont")
-var divsocial = document.querySelectorAll(".divsocial")
-var button = document.querySelectorAll("button")
-var dcurriculo = document.querySelector(".Dcurriculo")
-var habimg = document.querySelector(".habimg")
-var carwork = document.querySelector(".carwork")
-var aboutimg = document.querySelectorAll(".aboutimg")
-
-checkbox.addEventListener("change", function () {
-  if (this.checked) {
-    body.classList = "darkMode-body";
-    cont.forEach(function (cont) {
-      cont.classList.toggle("darkMode-cont");
-    });
-    dcurriculo.classList.toggle("darkMode-dcurriculo")
-    button.forEach(function (button) {
-      button.classList.toggle("darkMode-button")
-    });
-    habimg.classList.toggle("darkMode-habimg")
-    carwork.classList.toggle("darkMode-carwork")
-    aboutimg.forEach(function (aboutimg){
-      aboutimg.classList.toggle("darkMode-aboutimg")
-    });
-  } else {
-    body.classList = "lightMode-body";
-    cont.forEach(function (cont) {
-      cont.classList.toggle("darkMode-cont");
-    });
-    dcurriculo.classList.toggle("darkMode-dcurriculo")
-    button.forEach(function (button) {
-      button.classList.toggle("darkMode-button")
-    });
-    habimg.classList.toggle("darkMode-habimg")
-    carwork.classList.toggle("darkMode-carwork")
-    aboutimg.forEach(function (aboutimg) {
-      aboutimg.classList.toggle("darkMode-aboutimg")
-    });
-  }
-});
-
 /** select lenguage **/
 const select = document.querySelector(".select-lenguage");
 const selectButton = document.querySelector(".select-button");
@@ -128,3 +86,51 @@ selectoption.forEach(option => {
   });
 });
 
+//Mudar cor
+var body = document.querySelector("body")
+var cont = document.querySelectorAll(".cont")
+var divsocial = document.querySelectorAll(".divsocial")
+var button = document.querySelectorAll("button")
+var dcurriculo = document.querySelector(".Dcurriculo")
+var habimg = document.querySelector(".habimg")
+var carwork = document.querySelector(".carwork")
+var aboutimg = document.querySelectorAll(".aboutimg")
+
+checkbox.addEventListener("change", function () {
+  if (this.checked) {
+    body.classList = "darkMode-body";
+    cont.forEach(function (cont) {
+      cont.classList.toggle("darkMode-cont");
+    });
+    dcurriculo.classList.toggle("darkMode-dcurriculo")
+    button.forEach(function (button) {
+      button.classList.toggle("darkMode-button")
+    });
+    habimg.classList.toggle("darkMode-habimg")
+    carwork.classList.toggle("darkMode-carwork")
+    aboutimg.forEach(function (aboutimg) {
+      aboutimg.classList.toggle("darkMode-aboutimg")
+    });
+   
+    selectoptions.style.display = "none";
+    i2.style.transform = "rotate(0)";
+  } else {
+    body.classList = "lightMode-body";
+    cont.forEach(function (cont) {
+      cont.classList.toggle("darkMode-cont");
+    });
+    dcurriculo.classList.toggle("darkMode-dcurriculo")
+    button.forEach(function (button) {
+      button.classList.toggle("darkMode-button")
+    });
+    habimg.classList.toggle("darkMode-habimg")
+    carwork.classList.toggle("darkMode-carwork")
+    aboutimg.forEach(function (aboutimg) {
+      aboutimg.classList.toggle("darkMode-aboutimg")
+    });
+
+
+    selectoptions.style.display = "none";
+    i2.style.transform = "rotate(0)";
+  }
+});
