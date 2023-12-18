@@ -1,0 +1,31 @@
+.darkMode-body {
+    background: #80979a;
+  
+}
+
+.darkMode-cont {
+    background: #435055;
+    color: #F7F5F2;
+    
+}
+.darkMode-dcurriculo{
+    background: #e44f4f;
+   color: #F7F5F2;
+}
+.darkMode-button{
+    color: #435055;
+    font-weight: 700;
+}
+.darkMode-habimg{
+    background:#27323A;
+}
+.darkMode-carwork{
+    background:#27323A;
+}
+.darkMode-aboutimg{
+    background:#27323A;
+}
+.darkMode-select-button{
+    background: #435055;
+    color: #F7F5F2;
+}
